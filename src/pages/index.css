@@ -1,0 +1,113 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+}
+
+.header{
+  background: #fff;
+  position: fixed;
+  top:0px;
+  width: 100%;
+  z-index: 10000;
+  display: flex;
+}
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 70%;
+  padding: 0 22px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.logowrapper {
+  width: 30%;
+}
+
+.logo{
+  height: 34px;
+  margin: 8px 10px;
+
+}
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+
+.box{
+  width: 100%;
+  padding: 48px 0px; 
+  background: #fff;
+}
+ul.subbox {
+  width: 690px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin: auto;
+}
+
+ul.subbox>li{
+  width: 230px;
+  height: 230px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+ul.subbox>li:hover{
+  border: 1px solid #ddd;
+  -moz-box-shadow:2px 2px 5px #333333;
+   -webkit-box-shadow:2px 2px 5px #333333; 
+   box-shadow:2px 2px 5px #333333;
+}
+ul.subbox>li div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul.subbox>li div p{
+  font-size: 12px;
+}
+ul.subbox>li div .imgwrapper {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul.subbox>li div .imgwrapper img{
+  width: 70px;
+}
+ul.subbox>li div .inner {
+  width: 130px;
+}
+.container .info {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+
+}
+.container .info div.subinfo {
+  margin: 0px 10px;
+}
+.container .info div.subinfo div{
+  display: flex;
+
+}
+.container .info div label{
+  font-weight: bold;
+}
+.footer {
+  background: #555;
+  padding: 10px;
+  color: #fff;
+}
