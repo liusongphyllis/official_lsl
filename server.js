@@ -6,11 +6,11 @@ app.use(require('connect-history-api-fallback')());
 
 app.use(express.static(path.resolve(__dirname, 'dist')));
 
-app.get('*', function(req, res) {
+/*app.get('*', function(req, res) {
   if (req.originalUrl.indexOf('favicon.ico')) {
     res.sendFile(path.resolve(__dirname, './', 'favicon.ico'));
   }
-});
+});*/
 
 app.listen(20000, function() {
   console.log('app run at :20000');
