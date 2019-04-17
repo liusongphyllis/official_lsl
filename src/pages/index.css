@@ -1,6 +1,5 @@
 
 .normal {
-  font-family: Georgia, sans-serif;
   text-align: center;
 }
 
@@ -15,7 +14,6 @@
 .container {
   margin: 0 auto;
   max-width: 980px;
-  width: 70%;
   padding: 0 22px;
   position: relative;
   z-index: 2;
@@ -48,20 +46,16 @@
   background: #fff;
 }
 ul.subbox {
-  width: 690px;
+  max-width: 75%;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0px;
+  justify-content: space-around;
   margin: auto;
 }
 
-ul.subbox>li{
-  width: 230px;
-  height: 230px;
-  box-sizing: border-box;
-  cursor: pointer;
-}
+
 ul.subbox>li:hover{
   border: 1px solid #ddd;
   -moz-box-shadow:2px 2px 5px #333333;
@@ -72,6 +66,7 @@ ul.subbox>li div{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 ul.subbox>li div p{
   font-size: 12px;
@@ -94,7 +89,7 @@ ul.subbox>li div .inner {
   display: flex;
   flex-direction: row;
   align-items:flex-start;
-
+  flex-wrap: wrap;
 }
 .container .info div.subinfo {
   margin: 0px 10px;

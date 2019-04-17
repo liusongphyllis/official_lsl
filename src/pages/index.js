@@ -1,9 +1,9 @@
 import styles from './index.css';
 import { Menu, Carousel } from 'antd';
-import img1 from '../assets/1.jpg';
-import img2 from '../assets/2.jpg';
-import img3 from '../assets/3.jpg';
-import img4 from '../assets/4.jpg';
+import img1 from '../assets/1.png';
+import img2 from '../assets/2.png';
+import img3 from '../assets/3.png';
+import img4 from '../assets/4.png';
 import logo from '../assets/logo.png';
 
 import img11 from '../assets/11.png';
@@ -169,7 +169,7 @@ export default function() {
         </div>
       </div>
       <div className={ styles.footer }>
-        盂县易触即达网络科技有限责任公司版权所有
+        盂县易触即达网络科技有限责任公司版权所有 晋ICP证19003032
       </div>
     </div>
   );
